@@ -37,7 +37,7 @@ library
     , unix
   default-language: Haskell2010
 
-executable greetings
+executable hgreet
   main-is: Main.hs
   other-modules:
       Paths_greetings
@@ -51,7 +51,7 @@ executable greetings
     , unix
   default-language: Haskell2010
 
-test-suite greetings-test
+test-suite hgreet-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:

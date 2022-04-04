@@ -16,4 +16,5 @@ greetingNow = do
   currentTime <- Time.getCurrentTime
   name <- User.getEffectiveUserName
   putStrLn $ Period.greet (Period.fromTzTime currentTimezone currentTime) ++ " " ++ name
-  putStrLn $ "UTC: " ++ show currentTime ++ " Local timezone: GMT" ++ show currentTimezone
+
+--putStrLn $ "UTC: " ++ show currentTime ++ " Local timezone: GMT" ++ show currentTimezone

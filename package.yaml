@@ -28,7 +28,7 @@ library:
   source-dirs: src
 
 executables:
-  greetings:
+  hgreet:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -42,7 +42,7 @@ executables:
 
 
 tests:
-  greetings-test:
+  hgreet-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
